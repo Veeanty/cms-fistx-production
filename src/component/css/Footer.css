@@ -1,0 +1,302 @@
+.section-padding {
+    padding: 4rem 4rem;
+  }
+  
+  .logo-image {
+    width: 130px;
+    height: auto;
+  }
+  
+  .logo-image1 {
+    width: 130px;
+    height: auto;
+    margin-bottom: 20px;
+    opacity: 0;
+  }
+  
+  .footer {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .footer-head {
+    width: 400px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin-bottom: 0rem !important;
+  }
+  
+  .footer-body {
+    margin-left: 0px !important;
+    width: 200px !important;
+  }
+  
+  
+  .sb-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sb-footer-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  
+  .sb-footer-link-div {
+    width: 150px;
+    display: flex;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+  }
+  
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .socialmedia {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .socialmedia img {
+    width: 20px;
+  }
+  
+  /* Dalam Footer.css atau file CSS terpisah Anda */
+  
+  .follow-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Untuk mengatur gambar-gambar di tengah secara horizontal */
+    text-align: center; /* Untuk mengatur teks di tengah */
+  }
+  
+  .socialmedia p {
+    margin: 0; /* Menghilangkan margin bawaan dari elemen <p> */
+  }
+  
+  
+  .sb-footer-link-div {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+  }
+  
+  .sb-footer-link-div h4{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-bottom: 0.9rem;
+  }
+  
+  .sb-footer-link-div a{
+    text-decoration: none;
+  }
+  
+  .sb-footer-link-div p {
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .sb-footer-below {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+  }
+  
+  .sb-footer-below-link {
+    display: flex;
+    line-height: 15px;
+    margin-left: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  }
+  
+  .sb-footer-below-link p {
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  }
+  
+  .sb-footer-below-link a {
+    text-decoration: none;
+  }
+  
+  hr {
+  
+    color: rgb(0, 0, 0) !important;
+    width: 100%;
+  }
+  
+  .sb-footer-copyright p {
+    font-size: 13px;
+    line-height: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .sb-footer-heading h1 {
+      font-size: 44px;
+      line-height: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .sb-footer-heading h1 {
+      font-size: 34px;
+      line-height: 42px;
+    }
+  
+    .sb-footer-link div {
+      margin: 1rem 0;
+    }
+  
+    .sb-footer-btn p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .sb-footer-below {
+      flex-direction: column;
+      justify-content: left;
+    }
+  
+    .sb-footer-below-link {
+      flex-direction: column;
+    }
+  
+    .sb-footer-below-links p {
+      margin-left: 0rem;
+      margin-top: 1rem;
+    }
+  
+  
+    @media screen and (max-width: 400px) {
+      .sb-footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+      }
+    }
+  }
+  
+  /* * {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Poppins";
+    margin: 0;
+    background-color: white;
+  }
+  
+  
+  .logo_fistx {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .flex_footer_kiri {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex_footer_tengah {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex_footer_kanan {
+    background-color: rgb(255, 255, 255);
+    flex: 20%;
+  }
+  
+  
+  
+  .logo_footer_fistx {
+    position: relative;
+    top: 0;
+    left: 70px;
+    margin: 20px;
+    padding: 10px;
+    width: 140px;
+    height: 110px;
+  }
+  
+  .p_footer_nama {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .p_footer_alamat {
+    font-size: 1.2rem;
+  }
+  
+  
+  .footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+  }
+  
+  .footer__title {
+    font-weight: bold;
+  }
+  
+  .footer__items {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .footer__bottom {
+    margin-top: 20px;
+  }
+  
+  .footer__copyright {
+    font-size: 12px;
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 1000px) {
+  
+    .flex_footer_kiri,
+    .flex_footer_tengah,
+    .flex_footer_kanan {
+      flex: 100%;
+    }
+  } */

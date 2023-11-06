@@ -1,0 +1,54 @@
+.konten-luar {
+  background-color: rgba(217, 217, 217);
+}
+
+.ds {
+  background-color: rgb(255, 255, 255);
+  padding: 3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.form-dashboard {
+  text-align: left;
+  font-weight: bolder;
+  color: black;
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.logo-dashboard {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.konten-dalam {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 100vh;
+}
+
+.logo-dashboard-tengah {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+.card-dashboard {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 700px;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+}

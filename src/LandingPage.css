@@ -1,0 +1,270 @@
+.backgroundd {
+    background-image: url('../src/image/BGberanda.png');
+    background-size: cover; 
+    height: 100vh;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Poppins";
+    margin: 0;}
+
+.brandlogo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+
+/* navbar.css */
+
+/* Menghilangkan efek teks tebal (bold) */
+.navbar a.nav-link,
+.navbar a.navbar-brand,
+.navbar .dropdown-item {
+    font-weight: normal !important;
+}
+
+/* Ganti warna teks menjadi putih */
+.navbar a.nav-link,
+.navbar a.navbar-brand {
+    color: white !important;
+    /* Anda bisa mengatur warna sesuai dengan preferensi Anda */
+    font-family: "Poppins", sans-serif;
+    /* Menggunakan font Poppins */
+}
+
+/* Ganti warna teks item dropdown */
+.navbar .dropdown-item {
+    color: rgb(0, 0, 0) !important;
+    /* Anda bisa mengatur warna sesuai dengan preferensi Anda */
+    font-family: "Poppins", sans-serif;
+    /* Menggunakan font Poppins */
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .dropdown-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+
+
+.btn-login {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    /* font-size: 20px; */
+    border-width: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    /* Membuat teks menjadi tebal */
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-login:hover {
+    background-color: white;
+    /* Latar belakang putih saat hover */
+    border-color: rgb(0, 66, 128);
+    /* Warna border saat hover */
+    color: rgb(0, 66, 128) !important;
+    /* Warna teks saat hover */
+}
+
+
+
+.navbar {
+    background: linear-gradient(to bottom, rgba(1, 35, 80), rgba(2, 44, 125));
+    ;
+    /* Gunakan nilai alpha (0.7) sesuai dengan kebutuhan opasitas */
+    top: 0;
+    font-weight: bold;
+}
+
+
+.navbar-brand img {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.container1 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* Dalam Footer.css atau file CSS terpisah Anda */
+
+.white-box {
+    background-color: rgb(255, 165, 0); /* Mengatur warna latar belakang menjadi putih */
+    width: 100%; /* Menyesuaikan lebar dengan parent element */
+    height: 20px; /* Atur tinggi box sesuai kebutuhan Anda */
+    /* Gaya lain yang Anda inginkan */
+}
+
+
+.loader-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.834);
+    z-index: 1;
+}
+
+.spinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: #3d5af1 transparent #3d5af1 transparent;
+    border-radius: 50%;
+    animation: spin-anim 1.2s linear infinite;
+}
+
+
+.mobile-1 {
+    
+    margin: 30px;
+    width : 300px;
+    height : 600px ;
+    box-shadow: 80px 40px 40px rgba(0, 0, 0, 0.2);
+
+}
+.mobile-2 {
+    
+   margin-right: 30px;
+   margin-top: 60px;
+   width : 300px;
+   height : 600px ;
+   box-shadow: 80px 40px 40px rgba(0, 0, 0, 0.2);
+
+}
+
+.text-title-lp {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    display: block;
+}
+
+.text-deskripsi-lp {
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "Arial", sans-serif;
+    display: block;
+}
+
+.flex-content-kiri {
+    margin-top: 3rem;
+    text-align: left;
+    margin-right: 4rem;
+    padding-left: 6rem;
+    flex: 1; /* Mengubah flex menjadi 1 */
+}
+
+.flex-container {
+    display: flex; /* Menambahkan display: flex */
+    justify-content: space-between; /* Agar konten diatur dengan ruang di antara mereka */
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.flex-content-kanan {
+    padding-top: 50px;
+    flex: 1; /* Mengubah flex menjadi 1 */
+}
+
+.custom-toggler {
+    color: rgb(255, 0, 0) !important;           /* Set the text color to white */
+    /* You can also add other styles as needed, such as padding, border, etc. */
+  }
+
+.image-with-shadow {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    /* Sesuaikan dengan preferensi Anda */
+    border-radius: 50px;
+}
+
+/* CSS di dokumen berbeda atau dalam tag <style> */
+.cropped-image {
+    width: 100%; /* Lebar 100% */
+    height: 100%; /* Tinggi 100% */
+    object-fit: cover; /* Gambar akan terpotong menjadi kotak */
+    object-position: center; /* Posisi gambar akan diatur ke tengah */
+  }
+  
+
+
+@keyframes spin-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 900px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .btn-login {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 10px;
+
+    }
+
+    .mx-4 {
+        margin-right: 0 !important;
+    }
+
+    .text-title {
+        font-size: 20px;
+
+    }
+
+    .flex-content-kiri {
+        text-align: left;
+        padding: 10px;
+        margin-right: 20px;
+        flex: 0%;
+        margin-left: 20px;
+    }
+
+    .mobile-1 {
+    
+        margin: 30px;
+        width : 180px;
+        height : 360px ;
+        box-shadow: 80px 40px 40px rgba(0, 0, 0, 0.2);
+    
+    }
+    .mobile-2 {
+        
+       margin-right: 30px;
+       margin-top: 0px;
+       width : 180px;
+       height : 360px ;
+       margin-left: 30px;
+    
+    }
+
+    .image-with-shadow {
+        border-radius: 25px;
+    }
+
+}

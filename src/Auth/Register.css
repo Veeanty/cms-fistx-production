@@ -1,0 +1,82 @@
+.container-register {
+    margin: 0%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .text-center {
+    justify-content: center;
+  }
+  
+  /* Di dalam file Register.css */
+  
+  .btn.btn-secondary {
+    border: none; /* Menghilangkan border */
+  }
+  
+  .btn.btn-primary {
+    border: none; /* Menghilangkan border */
+  }
+  
+  .text-judul {
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  /* Di dalam file Register.css */
+  
+  /* ... other CSS rules ... */
+  
+  .logo-register {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+  }
+  
+  /* ... other CSS rules ... */
+  
+  .card {
+    background-color: rgb(8, 10, 64);
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Centered form on the left */
+  
+  .btn-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .card-register {
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 30px;
+  }
+  
+  .card-body {
+    border-radius: 25px;
+  }
+  
+  .box {
+    background-color: rgb(23, 63, 63);
+    width: 800px;
+  }
+  
+  .btn_submit {
+    width: 40%;
+  }
+  
+  .btn_danger {
+    width: 40%;
+  }
+  
